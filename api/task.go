@@ -6,7 +6,6 @@ type TaskStatus string
 
 const (
 	TaskStatusCreated  TaskStatus = "created"
-	TaskStatusStarted  TaskStatus = "started"
 	TaskStatusAborted  TaskStatus = "aborted"
 	TaskStatusExecuted TaskStatus = "executed"
 )
