@@ -10,11 +10,6 @@ const (
 	TaskStatusExecuted TaskStatus = "executed"
 )
 
-type Options struct {
-	RetainResult bool `json:"retain_result"`
-	TimeoutSec   int  `json:"timeout_sec"`
-}
-
 // Request header `Endpoint: Tasks.Create`
 type CreateTaskRequest struct {
 	TaskType string         `json:"task_type"`
